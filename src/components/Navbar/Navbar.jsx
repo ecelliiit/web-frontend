@@ -4,7 +4,11 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="content"> Navbar</div>
+      <div>Home</div>
+      <div>About us</div>
+      <div>Team</div>
+      <div>Events</div>
+      <div>Contact</div>
     </div>
   );
 };
