@@ -3,12 +3,15 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div>Home</div>
-      <div>About us</div>
-      <div>Team</div>
-      <div>Events</div>
-      <div>Contact</div>
+    <div className="navbar" id="Home">
+      <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#AboutUs">About Us</a></li>
+      <li><a href="#Teams">Team</a></li>
+      <li><a href="#Events">Events</a></li>
+      <li><a href="#ContactUs">Contact Us</a></li>
+    
+      </ul>
     </div>
   );
 };

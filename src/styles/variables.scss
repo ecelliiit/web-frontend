@@ -2,3 +2,10 @@ $black: #353642;
 $whiteShade1: #fcfcff;
 $blackShade2: #3e4e49;
 $blueShade1: #094067;
+.fade-in {
+    transition: opacity 1s ease;
+}
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease;
+}

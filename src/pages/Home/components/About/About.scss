@@ -25,6 +25,8 @@
   .body {
     font-size: 20px;
     position: relative;
+    display: flex;
+  }
     .left {
       display: flex;
       flex-direction: column;
@@ -43,4 +45,3 @@
       }
     }
   }
-}

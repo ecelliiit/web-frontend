@@ -1,0 +1,66 @@
+@import "../../styles/variables.scss";
+*{
+    box-sizing: border-box;
+}
+.Menu-items{
+    display:none;
+    padding-top: 60px;
+    margin: 30px;
+    list-style: none;
+   // transform: translateX(-110%);
+    transition: transform 1s ease-in-out;
+}
+.Menu-items li{
+    padding: 20px;
+    font-size: 2rem;
+    margin: 10px;
+
+}
+.HamburgerMenu{
+    border: 2px solid black;
+    position: fixed;
+    background-color: #FFE6EE;
+    height: 100vh;
+}
+.HamburgerMenu ul li:hover{
+    background-color: white;
+    color: pink;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.HamburgerMenu a:hover{
+    color: pink;
+    background-color: white;
+}
+.HamburgerMenu input[type="checkbox"]{
+    width: 32px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: block;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+.Hamburger-lines{
+    width: 33px;
+    height: 32px;
+  //  background-color: green;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Hamburger-lines .Line{
+    height: 4px;
+    width: 100%;
+    background: #232323;
+}
+.HamburgerMenu input[type="checkbox"]:checked ~ .Menu-items{
+    display: block;
+    //transform: translateX(0%);
+}

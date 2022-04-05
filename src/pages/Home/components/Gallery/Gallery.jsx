@@ -16,7 +16,7 @@ const Gallery = () => {
   });
 
   return (
-    <div className="home-gallery">
+    <div className="home-gallery" id="Teams">
       <div className="heading">Gallery</div>
       <div className="slideshow">
         <div class="splide">

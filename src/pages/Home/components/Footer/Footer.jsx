@@ -1,9 +1,8 @@
 import React from "react";
 import "./Footer.scss";
-
 const Footer = () => {
   return (
-    <div className="home-footer">
+    <div className="home-footer" id="ContactUs">
       <div className="copyright">
         © 2022 E-Cell IIIT Sonepat. All rights reserved
       </div>
@@ -13,7 +12,7 @@ const Footer = () => {
           <ul>
             <li>Vision</li>
             <li>Blog</li>
-            <li>Youtube</li>
+            <li><a href="https://www.youtube.com/channel/UCSLfrQ-S9uimhsO5tqPBRNA/featured" target="_blank">Youtube</a></li>
             <li>Contact</li>
           </ul>
         </div>
@@ -29,10 +28,10 @@ const Footer = () => {
         <div>
           <div className="heading">Follow us</div>
           <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>LinkedIn</li>
+            <li><a href="https://www.facebook.com/pages/category/Education/E-Cell-IIIT-Sonepat-113917040446486/" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/iiit_sonepat?lang=en" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/p/CFjqUItBKvy/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/ecelliiitsonepat/" target="_blank">LinkedIn</a></li>
           </ul>
         </div>
       </div>
