@@ -1,0 +1,37 @@
+.home-footer {
+  width: 100%;
+  aspect-ratio: 1440/394;
+  background: #eff0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  .copyright {
+    flex: 1;
+    text-align: center;
+  }
+  .quicklinks {
+    flex: 1;
+    display: flex;
+    gap: 8rem;
+    .heading {
+      font-size: 20px;
+      color: #000;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+    ul {
+      list-style: none;
+      li {
+        font-size: 16px;
+        margin-bottom: 0.6rem;
+        font-weight: 400;
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+          text-underline-offset: 4px;
+        }
+      }
+    }
+  }
+}

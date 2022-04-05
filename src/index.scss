@@ -1,0 +1,14 @@
+@import "./styles/variables.scss";
+
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+  color: $black;
+  font-family: "Manrope";
+}

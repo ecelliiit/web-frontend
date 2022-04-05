@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%);
+  background: transparent;
+  backdrop-filter: blur(4px);
+  height: 60px;
+  gap: 1rem;
+  padding-left: 60vw;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.text-link {
+  text-decoration: inherit;
+  color: inherit;
+}
