@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.scss";
 import {Link} from 'react-router-dom';
 
-//import PageNotFound from "./pages/PageNotFound/PageNotFound";
+
 const Navbar = () => {
   return (
     <div className="navbar">

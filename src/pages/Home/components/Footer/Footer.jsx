@@ -29,10 +29,10 @@ const Footer = () => {
         <div>
           <div className="heading">Follow us</div>
           <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>LinkedIn</li>
+            <li><a href="https://www.facebook.com/E-Cell-IIIT-Sonepat-113917040446486">Facebook</a></li>
+            <li><a href="https://twitter.com/ecelliiits">Twitter</a></li>
+            <li><a href="https://www.instagram.com/ecell.iiitsonepat/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/ecelliiitsonepat">LinkedIn</a></li>
           </ul>
         </div>
       </div>
