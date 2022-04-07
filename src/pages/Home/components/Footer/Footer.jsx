@@ -28,10 +28,6 @@ const Footer = () => {
         <div>
           <div className="heading">Follow us</div>
           <ul>
-            <li><a href="https://www.facebook.com/pages/category/Education/E-Cell-IIIT-Sonepat-113917040446486/" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/iiit_sonepat?lang=en" target="_blank">Twitter</a></li>
-            <li><a href="https://www.instagram.com/p/CFjqUItBKvy/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/company/ecelliiitsonepat/" target="_blank">LinkedIn</a></li>
           </ul>
         </div>
       </div>
