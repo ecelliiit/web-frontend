@@ -8,7 +8,7 @@ import CommunitySVG from "../../../../assets/illustrations/community.svg";
 const JoinCommunity = () => {
   const [input, setInput] = useState(false);
   return (
-    <div className="home-community">
+    <div className="home-community" id="Contact">
       <div className="heading">Join Community</div>
       <div className="body">
         <div className="img">
