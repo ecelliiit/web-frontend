@@ -14,5 +14,10 @@
   padding-left: 60vw;
   align-items: center;
   font-weight: 600;
-  z-index: 999;
+  cursor: pointer;
+  z-index:999;
+}
+.text-link {
+  text-decoration: inherit;
+  color: inherit;
 }

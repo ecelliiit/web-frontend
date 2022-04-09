@@ -26,7 +26,7 @@ const Events = () => {
     },
   ];
   return (
-    <div className="home-event">
+    <div className="home-event" id="Event">
       <div className="heading">Our Events</div>
       <div className="subheading">
         Well organized event. Loved the enthusiasm of the students. One of the

@@ -5,7 +5,7 @@ import Illustration from "../../../../assets/illustrations/illustration3.svg";
 
 const About = () => {
   return (
-    <div className="home-about">
+    <div className="home-about" id="About">
       <div className="heading">What is E-Cell</div>
       <div className="body">
         <div className="left">

@@ -1,14 +1,36 @@
 import React from "react";
 import "./Navbar.scss";
+import {Link} from 'react-router-dom';
+
 
 const Navbar = () => {
+  const scrollToAbout=() => {
+    const aboutUs=document.querySelector("#About");
+    aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
+  }
+  const scrollToHome=() => {
+    const aboutUs=document.querySelector("#HomeSection");
+    aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
+  }
+  const scrollToEvents=() => {
+    const aboutUs=document.querySelector("#Event");
+    aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
+  }
+  const scrollToContact=() => {
+    const aboutUs=document.querySelector("#Contact");
+    aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
+  }
   return (
     <div className="navbar">
-      <div>Home</div>
-      <div>About us</div>
+      {
+      <>
+      <div onClick={scrollToHome}>Home</div>
+      <div onClick={scrollToAbout}>About us</div>
       <div>Team</div>
-      <div>Events</div>
-      <div>Contact</div>
+      <div onClick={scrollToEvents}>Events</div>
+      <div onClick={scrollToContact}>Contact</div>
+      </>
+      }
     </div>
   );
 };
