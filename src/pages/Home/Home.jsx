@@ -2,6 +2,7 @@ import "./Home.scss";
 import Title from "./components/Title/Title";
 import About from "./components/About/About";
 import Moto from "./components/Moto/Moto";
+import Team from "./components/Team/Teams"
 import Events from "./components/Events/Events";
 import JoinCommunity from "./components/JoinCommunity/JoinCommunity";
 import Gallery from "./components/Gallery/Gallery";
@@ -14,6 +15,7 @@ const Home = () => {
       <Title />
       <About />
       <Moto />
+      <Team />
       <Events />
       <Gallery />
       <Map />
