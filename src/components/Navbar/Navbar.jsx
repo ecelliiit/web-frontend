@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.scss";
-import {Link} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -16,6 +15,10 @@ const Navbar = () => {
     const aboutUs=document.querySelector("#Event");
     aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
   }
+  const scrollToTeam=() => {
+    const aboutUs=document.querySelector("#Teams");
+    aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
+  }
   const scrollToContact=() => {
     const aboutUs=document.querySelector("#Contact");
     aboutUs.scrollIntoView({behavior:'smooth',block:"start"});
@@ -26,7 +29,7 @@ const Navbar = () => {
       <>
       <div onClick={scrollToHome}>Home</div>
       <div onClick={scrollToAbout}>About us</div>
-      <div>Team</div>
+      <div onClick={scrollToTeam}>Team</div>
       <div onClick={scrollToEvents}>Events</div>
       <div onClick={scrollToContact}>Contact</div>
       </>
