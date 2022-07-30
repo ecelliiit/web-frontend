@@ -1,23 +1,33 @@
 @import "../../styles/variables.scss";
 
 .navbar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   display: flex;
-  clip-path: polygon(3% 0, 100% 0%, 97% 100%, 0% 100%);
-  background: transparent;
+  border-radius: 1vh;
+  background: linear-gradient(95.8deg, #ba81ff 0%, #ff6a95 100%);
   backdrop-filter: blur(4px);
   height: 60px;
   gap: 1rem;
-  padding-left: 60vw;
   align-items: center;
   font-weight: 600;
   cursor: pointer;
   z-index:999;
+  color: white;
 }
 .text-link {
   text-decoration: inherit;
   color: inherit;
+}
+
+
+.logoImg{
+  margin-right: 65vw;
+  margin-left: 2vw;
+  width: 50px;
+  height: 80px;
 }

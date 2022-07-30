@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import Logo from"../../assets/illustrations/logo512.png";
 
 
 const Navbar = () => {
@@ -27,6 +28,9 @@ const Navbar = () => {
     <div className="navbar">
       {
       <>
+      <div className="logoContainer">
+        <img src={Logo} alt="Logo" className="logoImg"/>
+      </div>
       <div onClick={scrollToHome}>Home</div>
       <div onClick={scrollToAbout}>About us</div>
       <div onClick={scrollToTeam}>Team</div>
