@@ -19,18 +19,21 @@ const Teams = () => {
         <TeamCard name="Mukesh Ambani" Position="Designer" Photo={dp}/>
         <TeamCard name="Hanny" Position="React Developer" Photo={dp}/>
         <TeamCard name="Elon Musk" Position="Illustrator" Photo={dp}/>
+        <TeamCard name="Elon Musk" Position="Illustrator" Photo={dp}/>
       </div>
       <div className="TeamsHeading">Technical Team</div>
       <div className="CoreTeam">
         <TeamCard name="Mukesh Ambani" Position="Designer" Photo={dp}/>
         <TeamCard name="Hanny" Position="React Developer" Photo={dp}/>
         <TeamCard name="Elon Musk" Position="Illustrator" Photo={dp}/>
+        <TeamCard name="Hanny" Position="React Developer" Photo={dp}/>
       </div>
       <div className="TeamsHeading">Design Team</div>
       <div className="CoreTeam">
         <TeamCard name="Mukesh Ambani" Position="Designer" Photo={dp}/>
         <TeamCard name="Hanny" Position="React Developer" Photo={dp}/>
         <TeamCard name="Elon Musk" Position="Illustrator" Photo={dp}/>
+        <TeamCard name="Hanny" Position="React Developer" Photo={dp}/>
       </div>
     </div>
   );

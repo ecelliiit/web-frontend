@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <div className="home-footer">
       <div className="copyright">
-        © 2022 E-Cell IIIT Sonepat. All rights reserved
+        © 2022 E-Cell IIIT Sonepat | All rights reserved
       </div>
       <div className="quicklinks">
         <div>
-          <div className="heading">E - Cell</div>
+          <div className="heading">E Cell</div>
           <ul>
             <li>Vision</li>
             <li>Blog</li>

@@ -5,24 +5,24 @@ import "./Events.scss";
 const Events = () => {
   const events = [
     {
-      title: "Event 1",
+      title: "Talk With Alumni",
       description:
-        "E-Carnival was a two-tier event consisting of Book Fair and Meme War, instilling and improving the ability of creative thinking. The Book Fair in partnership with some online bookstores was carried out to induce a reading culture among students and encourage bookselling startups",
+        "Life is about the experience,Talking with Alumni enables the college students to interact with their successful passed out seniors, knowing about their mistakes and taking learning from them.  Sharing of the wealth of experience and skills with the students.",
     },
     {
-      title: "Event 1",
+      title: "Workshops",
       description:
-        "E-Carnival was a two-tier event consisting of Book Fair and Meme War, instilling and improving the ability of creative thinking. The Book Fair in partnership with some online bookstores was carried out to induce a reading culture among students and encourage bookselling startups",
+        "Workshops are important for raising awareness within the community in general. Various workshops on the blockchain, Competitive programming, Health awareness, RPA, etc. These are organized on H2s, Polkadot, D2C, etc.. platforms.",
     },
     {
-      title: "Event 1",
+      title: "Webinars",
       description:
-        "E-Carnival was a two-tier event consisting of Book Fair and Meme War, instilling and improving the ability of creative thinking. The Book Fair in partnership with some online bookstores was carried out to induce a reading culture among students and encourage bookselling startups",
+        "Webinars are another way to expand our knowledge, E Cell IIIT Sonepat organizes webinars on diverse subjects, Such as entrepreneurship, Startups, Coding webinars, etc.",
     },
     {
-      title: "Event 1",
+      title: "Bootcamp",
       description:
-        "E-Carnival was a two-tier event consisting of Book Fair and Meme War, instilling and improving the ability of creative thinking. The Book Fair in partnership with some online bookstores was carried out to induce a reading culture among students and encourage bookselling startups",
+        "Explain you're the most powerful factor to define how the company's daily operations can be done. Most the people often explain the key factor depends on the primaries and secondaries products/services data",
     },
   ];
   return (
