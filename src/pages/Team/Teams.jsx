@@ -1,6 +1,6 @@
 import React from "react";
-import TeamCard from './TeamCard/TeamCard';
-import dp from '../../../../assets/illustrations/lamp.svg';
+import TeamCard from './TeamCard/TeamCard'
+import dp from '../../assets/illustrations/lamp.svg'
 import "./Teams.scss";
 
 const data = [
@@ -103,7 +103,7 @@ const data = [
   {
     name: "Bhav Khushwaha",
     position: "PR Team",
-    img:dp 
+    img: dp
   }
 ];
 
@@ -118,7 +118,6 @@ function createCard(props) {
 }
 
 const Teams = () => {
-
   return (
     <div className="home-event" id="Teams">
       <div className="heading">Our Team</div>
@@ -137,5 +136,3 @@ const Teams = () => {
 };
 
 export default Teams;
-
-

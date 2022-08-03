@@ -1,0 +1,23 @@
+.home-title {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-top: 140px;
+  align-items: center;
+  gap: 2rem;
+}
+.home-title .heading1,
+.home-title .heading2 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+.home-title .title-img {
+  width: 70%;
+  height: 600px;
+  background-color: #fcfcff;
+  background: url("../../../../assets/illustrations/illustration4.svg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}/*# sourceMappingURL=Title.css.map */

@@ -1,20 +1,17 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
 
-//components
-import AdminLogin from "./pages/AdminLogin/AdminLogin";
+import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import PageNotFound from "./pages/PageNotFound/PageNotFound";
+import Teams from "./pages/Team/Teams";
 
 function App() {
-  
+
   return (
     <Router>
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/admin/login" exact element={<AdminLogin />} />
-        <Route path="/*" index element={<PageNotFound />} />
+        <Route path="/teams" exact element={<Teams />} />
       </Routes>
     </Router>
   );
