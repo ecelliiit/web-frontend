@@ -10,17 +10,17 @@
   gap: 2.5rem;
   padding-top: 57px;
   padding-bottom: 50px;
+
   .heading {
-    background: -webkit-linear-gradient(
-      91.3deg,
-      #ba81ff -1.72%,
-      #ff6a95 101.32%
-    );
+    background: -webkit-linear-gradient(91.3deg,
+        #ba81ff -1.72%,
+        #ff6a95 101.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 46px;
     font-weight: 800;
   }
+
   .subheading {
     font-weight: 600;
     font-size: 24px;
@@ -28,12 +28,14 @@
     margin-bottom: 2rem;
     width: 70%;
   }
+
   .events {
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
     width: 70vw;
     justify-content: center;
+
     .event-card {
       width: 350px;
     }

@@ -18,7 +18,6 @@ const Home = () => {
       <Team />
       <Events />
       <Gallery />
-      <Map />
       <JoinCommunity />
       <Footer />
     </div>

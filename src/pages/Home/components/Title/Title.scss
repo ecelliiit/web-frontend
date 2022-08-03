@@ -2,11 +2,13 @@
 
 .home-title {
   width: 100%;
-  aspect-ratio: 1440/885;
-  background-color: $whiteShade1;
-  background: url("../../../../assets/illustrations/illustration1_2.svg");
-  background-repeat: no-repeat;
-  background-position-y: -200px;
+  // aspect-ratio: 1440/885;
+  // height: 900px;
+  // background-color: $whiteShade1;
+  // background: url("../../../../assets/illustrations/illustration4.svg") center center no-repeat;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position-y: -230px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -15,8 +17,16 @@
   gap: 2rem;
   .heading1,
   .heading2 {
-    font-size: 62px;
+    font-size: 50px;
     font-weight: 800;
     letter-spacing: -2px;
+  }
+  .title-img {
+    width: 70%;
+    height: 600px;
+    background-color: $whiteShade1;
+    background: url("../../../../assets/illustrations/illustration4.svg") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
   }
 }

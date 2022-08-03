@@ -1,5 +1,30 @@
-.home-map{
+// .home-map{
+//     width: 100%;
+//     aspect-ratio: 1440/725.5;
+//     background: #FFF1FE;
+// }
+
+.location-section {
     width: 100%;
-    aspect-ratio: 1440/725.5;
-    background: #FFF1FE;
+    padding: 5rem 5rem;
+    background: #fff1fe;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    .heading {
+        margin-bottom: 5rem;
+        background: -webkit-linear-gradient(9.3deg, #ba81ff -1.72%, #ff6a95 101.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 46px;
+        font-weight: 800;
+    }
+
+    .home-map {
+        width: 100%;
+        aspect-ratio: 1440/725.5;
+        background: #FFF1FE;
+    }
+
+    .left {}
 }
