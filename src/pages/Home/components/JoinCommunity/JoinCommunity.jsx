@@ -9,7 +9,7 @@ const JoinCommunity = () => {
   const [input, setInput] = useState(false);
   return (
     <div className="home-community" id="Contact">
-      <div className="heading">Join Community</div>
+      <div className="heading">Join Our Community</div>
       <div className="body">
         <div className="img">
           <img src={CommunitySVG} alt="community-svg" />
