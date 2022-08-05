@@ -126,6 +126,11 @@ const data = [
     position: "News Team",
     img: "https://pps.whatsapp.net/v/t61.24694-24/291501332_990646748224549_8843258466085480870_n.jpg?ccb=11-4&oh=01_AVze4iFdeblsu9X2RZFle8ynoziBOM4RCfVnMTShaTURYg&oe=62FE259C"
   },
+  {
+    name: "Jatin Madaan",
+    position: "PR & Event Team",
+    img: "https://media-exp1.licdn.com/dms/image/C5603AQH1yI94OcYzbw/profile-displayphoto-shrink_400_400/0/1651933795358?e=1665014400&v=beta&t=4WaLv2MKGgBJuvpssBn7dFeFx27FX7X_x6on59s_LSs"
+  },
 ];
 
 export default data;
