@@ -6,7 +6,7 @@ import Teams from "./components/Team/Teams";
 import Events from "./components/Events/Events";
 import JoinCommunity from "./components/JoinCommunity/JoinCommunity";
 import Footer from "./components/Footer/Footer";
-import Slider from "./components/Gallery/slider/Slider";
+import Gallery from "./components/Gallery/Gallery";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
       <Moto />
       <Teams />
       <Events />
-      <Slider />
+      <Gallery />
       <JoinCommunity />
       <Footer />
     </div>
