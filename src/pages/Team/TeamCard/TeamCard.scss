@@ -1,0 +1,27 @@
+@import "../../../styles/variables.scss";
+
+.team-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid $black;
+    background-color: $whiteShade1;
+}
+.name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: $black;
+}
+.position {
+    font-size: 15px;
+    color: $blackShade2;
+    opacity: 0.8;
+}

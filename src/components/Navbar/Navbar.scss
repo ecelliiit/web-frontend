@@ -6,16 +6,20 @@
   left: 0;
   right: 0;
   display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
   clip-path: polygon(0 0, 98.7% 0, 98.7% 100%, 0% 100%);
   background: transparent;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
   height: 60px;
-  gap: 1rem;
-  padding-left: 60vw;
   align-items: center;
   font-weight: 600;
   cursor: pointer;
   z-index:999;
+  .nav-heading {
+    display: flex;
+    gap: 2rem;
+  }
 }
 .text-link {
   text-decoration: inherit;

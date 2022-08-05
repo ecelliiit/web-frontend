@@ -1,0 +1,77 @@
+.home-community {
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  background: linear-gradient(95.83deg, #ba81ff 0%, #ff6a95 100%);
+}
+.home-community .heading {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 800;
+  text-align: center;
+}
+.home-community .body {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.home-community .body img {
+  transform: scale(0.9);
+}
+.home-community .body .details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 40%;
+  margin-left: 2rem;
+}
+.home-community .body .details .description {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  color: white;
+}
+.home-community .body .details .input-box {
+  font-size: 14px;
+}
+.home-community .body .details .input-box input {
+  height: 40px;
+  width: 200px;
+  color: #353642;
+  border: none;
+  padding-left: 20px;
+}
+.home-community .body .details .input-box input:active, .home-community .body .details .input-box input:focus {
+  outline: none;
+  border: none;
+}
+.home-community .body .details .input-box input::-moz-placeholder {
+  color: #474a57;
+  line-height: 24px;
+}
+.home-community .body .details .input-box input:-ms-input-placeholder {
+  color: #474a57;
+  line-height: 24px;
+}
+.home-community .body .details .input-box input::placeholder {
+  color: #474a57;
+  line-height: 24px;
+}
+.home-community .body .details .input-box button {
+  background-color: black;
+  outline: none;
+  border: none;
+  color: #fcfcff;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+.home-community .body .details .input-box button:hover {
+  filter: opacity(0.9);
+}
+.home-community .calendar {
+  position: absolute;
+  bottom: 50px;
+  right: 10%;
+}/*# sourceMappingURL=JoinCommunity.css.map */

@@ -1,36 +1,22 @@
 import React from "react";
 import "./Gallery.scss";
-import { Splide } from "@splidejs/splide";
-import "@splidejs/splide/dist/css/splide.min.css";
+import Slider from "./Slider";
 
-const Gallery = () => {
-  document.addEventListener("DOMContentLoaded", function () {
-    var splide = new Splide(".splide", {
-      type: "loop",
-      height: "10rem",
-      focus: "center",
-      autoplay: true,
-      perPage: 5,
-    });
-    splide.mount();
-  });
-
+function Gallery() {
   return (
-    <div className="home-gallery">
-      <div className="heading">Gallery</div>
-      <div className="slideshow">
-        <div class="splide">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">Slide 01</li>
-              <li class="splide__slide">Slide 02</li>
-              <li class="splide__slide">Slide 03</li>
-            </ul>
-          </div>
+    <div className="gallery">
+      <div className="gallery-title">
+        <h1>Gallery</h1>
+      </div>
+      <div className="gallery-container">
+        <div className="gallery-image">
+          <Slider />
+          <Slider />
+          <Slider />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Gallery;
