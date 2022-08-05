@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import TeamCard from './TeamCard/TeamCard';
 import dp from '../../../../assets/illustrations/lamp.svg';
 import "./Teams.scss";
+import "./Teams.css";
 
 const data = [
   {
@@ -103,7 +105,7 @@ const data = [
   {
     name: "Bhav Khushwaha",
     position: "PR Team",
-    img:dp 
+    img: dp
   },
   {
     name: "Rishi Bachhuka",
@@ -129,6 +131,12 @@ function createCard(props) {
 
 const Teams = () => {
 
+  const navigate = useNavigate();
+
+  const coreTeam = () => {
+    navigate("/teams")
+  }
+
   return (
     <div className="home-event" id="Teams">
       <div className="heading">Our Team</div>
@@ -137,10 +145,9 @@ const Teams = () => {
         most growing E-Cell of India. A very hardworking team walking with a
         zeal.
       </div>
-      <div className="joinTeamButton"><a href="https://ik.imagekit.io/officialprashant/Brochure/E_Cell_IIIT_Sonepat_uJjfnSY1c.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1656340749523" target="_blank" rel="noopener noreferrer">Brochure</a></div>
-      <div className="TeamsHeading">Core Team</div>
-      <div className="CoreTeam">
-        {data.map(createCard)}
+      <div className="buttons">
+        <div className="joinButton"><a href="https://ik.imagekit.io/officialprashant/Brochure/E_Cell_IIIT_Sonepat_uJjfnSY1c.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1656340749523" target="_blank" rel="noopener noreferrer">Brochure</a></div>
+        <div onClick={coreTeam} className="coreTeamButton">Core Team</div>
       </div>
     </div>
   );
