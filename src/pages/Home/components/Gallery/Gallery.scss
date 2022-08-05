@@ -1,0 +1,27 @@
+.gallery {
+    background: #eff0ff;
+
+    .gallery-title {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+        font-weight: 800;
+        background: -webkit-linear-gradient(91.3deg,
+                #ba81ff -1.72%,
+                #ff6a95 101.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .gallery-container {
+        .gallery-image {
+            display: flex;
+            flex-direction: row;
+            gap: 4rem;
+            justify-content: space-between;
+            padding: 0 4rem;
+            padding-bottom: 4rem;
+        }
+    }
+}

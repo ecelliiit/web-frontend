@@ -104,6 +104,16 @@ const data = [
     name: "Bhav Khushwaha",
     position: "PR Team",
     img:dp 
+  },
+  {
+    name: "Rishi Bachhuka",
+    position: "PR Team",
+    img: dp
+  },
+  {
+    name: "Ayush Kumar",
+    position: "PR Team",
+    img: dp
   }
 ];
 

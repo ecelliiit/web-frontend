@@ -9,9 +9,9 @@ const App = () => {
     { url: "https://ik.imagekit.io/officialprashant/Designs/Portrait/Twitter___Musk_QBEdt8ulB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657806417205", title: "italy" },
   ];
   const containerStyles = {
-    width: "400px",
-    height: "400px",
-    margin: "4rem auto",
+    width: "300px",
+    height: "300px",
+    margin: "2rem auto",
   };
   return (
     <div>

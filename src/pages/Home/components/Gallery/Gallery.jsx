@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery.scss";
-import Slider from "./Slider";
+import Slider from "./slider/Slider";
 
 function Gallery() {
   return (
