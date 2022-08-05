@@ -131,6 +131,11 @@ const data = [
     position: "PR & Event Team",
     img: "https://media-exp1.licdn.com/dms/image/C5603AQH1yI94OcYzbw/profile-displayphoto-shrink_400_400/0/1651933795358?e=1665014400&v=beta&t=4WaLv2MKGgBJuvpssBn7dFeFx27FX7X_x6on59s_LSs"
   },
+  {
+    name: "Vaibhav Dinkar",
+    position: "Social Media Anyalist",
+    img: "https://media-exp1.licdn.com/dms/image/C4D03AQGqNtBuWHY_6g/profile-displayphoto-shrink_400_400/0/1641874944403?e=1665014400&v=beta&t=RoBGlCohPjofcLKgZIwrK4r-uwxd-8fs24EZ1UPBzL8"
+  },
 ];
 
 export default data;
