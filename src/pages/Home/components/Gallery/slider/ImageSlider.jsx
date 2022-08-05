@@ -84,7 +84,6 @@ const ImageSlider = ({ slides }) => {
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
           </div>
         ))}
       </div>
