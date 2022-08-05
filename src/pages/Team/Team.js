@@ -8,12 +8,12 @@ const data = [
     },
     {
       name: "Harshit Joshi",
-      position: "Co - Founder",
+      position: "Vice President",
       img: dp
     },
     {
       name: "Chandra Mauli",
-      position: "Illustrator",
+      position: "_",
       img: dp
     },
     {
@@ -38,13 +38,13 @@ const data = [
     },
     {
       name: "Shivansh Verma",
-      position: "React Developer",
+      position: "Technical Head",
       img: dp
     }
     ,
     {
       name: "Abhyuday",
-      position: "Designer",
+      position: "Marketing Team",
       img: dp
     },
     {
@@ -74,7 +74,7 @@ const data = [
     },
     {
       name: "Tamish Bajaj",
-      position: "Illustrator",
+      position: "Marketing Team",
       img: dp
     },
     {
@@ -99,6 +99,16 @@ const data = [
     },
     {
       name: "Bhav Khushwaha",
+      position: "PR Team",
+      img: dp
+    },
+    {
+      name: "Rishi Bachhuka",
+      position: "PR Team",
+      img: dp
+    },
+    {
+      name: "Ayush Kumar",
       position: "PR Team",
       img: dp
     }
