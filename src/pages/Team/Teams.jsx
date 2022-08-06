@@ -6,6 +6,7 @@ import data from './Team'
 function createCard(props) {
   return (
     <TeamCard
+      key={props.key}
       name={props.name}
       Position={props.position}
       Photo={props.img}
