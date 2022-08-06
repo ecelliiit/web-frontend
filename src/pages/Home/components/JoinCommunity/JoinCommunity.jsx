@@ -23,7 +23,7 @@ const JoinCommunity = () => {
     });
 
   const handleInput = () => {
-
+    setInput(!input);
     axios
       .post("http://604c-2405-201-6005-e12e-98d9-490-ebbd-3eaf.ngrok.io/subscriber", {
         first_name: "New",
@@ -35,7 +35,7 @@ const JoinCommunity = () => {
       })
       .catch((err) => {
         console.log(err);
-      }); 
+      });
   }
 
   return (
@@ -59,7 +59,7 @@ const JoinCommunity = () => {
                 setInput(e.target.value);
               }}
             />
-            <button onClick={handleInput() ? notify() : console.log("error")}>Subscribe</button>
+            <button onClick={handleInput() ? notify() : console.log(Error)}>Subscribe</button>
           </div>
         </div>
       </div>
