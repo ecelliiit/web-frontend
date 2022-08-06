@@ -1,12 +1,30 @@
 import React from "react";
 import "./JoinCommunity.scss";
 import { useState } from "react";
+import axios from "axios";
 
 import CalendarSVG from "../../../../assets/illustrations/calendar.svg";
 import CommunitySVG from "../../../../assets/illustrations/community.svg";
 
 const JoinCommunity = () => {
   const [input, setInput] = useState(false);
+
+  const handleInput = () => {
+    console.log(input);
+    axios
+      .post("http://604c-2405-201-6005-e12e-98d9-490-ebbd-3eaf.ngrok.io/subscriber", {
+        first_name: "New",
+        last_name: "User",
+        email: input,
+      })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
   return (
     <div className="home-community" id="Contact">
       <div className="heading">Join Our Community</div>
@@ -28,7 +46,7 @@ const JoinCommunity = () => {
                 setInput(e.target.value);
               }}
             />
-            <button>Subscribe</button>
+            <button onClick={handleInput}>Subscribe</button>
           </div>
         </div>
       </div>
