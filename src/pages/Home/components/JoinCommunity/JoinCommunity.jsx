@@ -12,18 +12,21 @@ const JoinCommunity = () => {
   const handleInput = () => {
     console.log(input);
     axios
-      .post("http://604c-2405-201-6005-e12e-98d9-490-ebbd-3eaf.ngrok.io/subscriber", {
-        first_name: "New",
-        last_name: "User",
-        email: input,
-      })
+      .post(
+        "http://604c-2405-201-6005-e12e-98d9-490-ebbd-3eaf.ngrok.io/subscriber",
+        {
+          first_name: "New",
+          last_name: "User",
+          email: input,
+        }
+      )
       .then((res) => {
         console.log(res);
       })
       .catch((err) => {
         console.log(err);
       });
-  }
+  };
 
   return (
     <div className="home-community" id="Contact">
