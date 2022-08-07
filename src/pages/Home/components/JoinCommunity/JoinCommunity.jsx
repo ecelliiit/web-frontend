@@ -24,9 +24,9 @@ const JoinCommunity = () => {
 
   const handleInput = () => {
     axios
-      .post("http://604c-2405-201-6005-e12e-98d9-490-ebbd-3eaf.ngrok.io/subscriber", {
-        first_name: "New",
-        last_name: "User",
+      .post("https://ecell-iiits-backend.herokuapp.com/subscriber", {
+        first_name: "Subscriber",
+        last_name: "E Cell IIIT Sonepat",
         email: input,
       })
       .then((res) => {
