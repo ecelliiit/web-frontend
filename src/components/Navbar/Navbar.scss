@@ -37,3 +37,19 @@
   text-decoration: inherit;
   color: inherit;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    clip-path: polygon(0 0, 96.7% 0, 96.7% 100%, 0% 100%);
+    align-items: center;
+    .nav-title {
+      display: none;
+    }
+    .nav-heading {
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+  }
+}

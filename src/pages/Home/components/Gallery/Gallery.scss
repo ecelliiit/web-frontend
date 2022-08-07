@@ -25,3 +25,21 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        .gallery-title {
+            font-size: 24px;
+            padding: 20px 0;
+        }
+
+        .gallery-container {
+            .gallery-image {
+                flex-direction: column;
+                gap: 2rem;
+                padding: 0 2rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}

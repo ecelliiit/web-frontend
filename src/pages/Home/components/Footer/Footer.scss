@@ -39,5 +39,25 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .home-footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+    .quicklinks {
+      gap: 2rem;
+      .heading {
+        font-size: 16px;
+      }
+      ul {
+        li {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
 
 

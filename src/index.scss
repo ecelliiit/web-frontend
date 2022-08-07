@@ -12,3 +12,12 @@ body {
   color: $black;
   font-family: "Manrope";
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    color: $black;
+    font-family: "Manrope";
+  }
+}

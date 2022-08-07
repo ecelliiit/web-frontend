@@ -41,3 +41,23 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .home-event {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .heading {
+      font-size: 36px;
+    }
+
+    .subheading {
+      font-size: 20px;
+      width: 90%;
+    }
+
+    .events {
+      width: 90vw;
+    }
+  }
+}

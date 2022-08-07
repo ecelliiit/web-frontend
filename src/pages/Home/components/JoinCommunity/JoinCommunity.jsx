@@ -62,9 +62,9 @@ const JoinCommunity = () => {
           </div>
         </div>
       </div>
-      <div className="calendar">
-        <img src={CalendarSVG} alt="calendar-svg" />
-      </div>
+      {/* <div className="calendar">
+        <img className="calendar-img" src={CalendarSVG} alt="calendar-svg" />
+      </div> */}
     </div>
   );
 };
