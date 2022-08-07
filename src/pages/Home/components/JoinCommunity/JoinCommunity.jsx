@@ -8,6 +8,8 @@ import "react-toastify/dist/ReactToastify.css";
 import CalendarSVG from "../../../../assets/illustrations/calendar.svg";
 import CommunitySVG from "../../../../assets/illustrations/community.svg";
 
+const secretKey = process.env.SECRET
+
 const JoinCommunity = () => {
   const [input, setInput] = useState(false);
 
@@ -28,7 +30,13 @@ const JoinCommunity = () => {
         first_name: "Subscriber",
         last_name: "E Cell IIIT Sonepat",
         email: input,
-      })
+      },
+        {
+          headers: {
+            Authorization: "Bearer " + secretKey,
+          }
+        }
+      )
       .then((res) => {
         console.log(res);
       })
@@ -62,9 +70,6 @@ const JoinCommunity = () => {
           </div>
         </div>
       </div>
-      {/* <div className="calendar">
-        <img className="calendar-img" src={CalendarSVG} alt="calendar-svg" />
-      </div> */}
     </div>
   );
 };
