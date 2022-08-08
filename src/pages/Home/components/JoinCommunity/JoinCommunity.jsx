@@ -5,13 +5,12 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import CalendarSVG from "../../../../assets/illustrations/calendar.svg";
 import CommunitySVG from "../../../../assets/illustrations/community.svg";
 
 const secretKey = process.env.SECRET
 
 const JoinCommunity = () => {
-  const [input, setInput] = useState(false);
+  const [input, setInput] = useState(" ");
 
   const notify = () =>
     toast("Subscribed Successfully", {
@@ -38,7 +37,10 @@ const JoinCommunity = () => {
         }
       )
       .then((res) => {
-        console.log(res);
+        if (res.status === 200 || res.status === 201 || res.status === 202) {
+          notify();
+          setInput("");
+        }
       })
       .catch((err) => {
         console.log(err);
@@ -59,6 +61,7 @@ const JoinCommunity = () => {
           </div>
           <div className="input-box">
             <input
+              id="mainInput"
               type="email"
               placeholder="Your work email address"
               onChange={(e) => {
@@ -66,7 +69,8 @@ const JoinCommunity = () => {
                 setInput(e.target.value);
               }}
             />
-            <button onClick={handleInput}>Subscribe</button>
+            <button type="submit" onClick={handleInput}>Subscribe</button>
+            <ToastContainer />
           </div>
         </div>
       </div>
