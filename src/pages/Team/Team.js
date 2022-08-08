@@ -79,7 +79,7 @@ const data = [
   {
     key: 13,
     name: "Siddhant",
-    position: "React Developer",
+    position: "Event Team",
     img: "https://media-exp1.licdn.com/dms/image/C4D03AQHPj9Vbb7Kelg/profile-displayphoto-shrink_400_400/0/1641558467963?e=1665014400&v=beta&t=zR7IO3haC6Zg43DHuU-5EAQdCa35R03ZeE-ud67RtWM"
   },
   {
