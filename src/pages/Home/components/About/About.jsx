@@ -10,18 +10,17 @@ const About = () => {
       <div className="body">
         <div className="left">
           <div>
-            Entrepreneurship Cell IIIT Sonepat is a non-profit student
-            organization that works to support and unleash the budding
-            entrepreneurial minds and promote the start-up culture among the
-            students.
+            Entrepreneurship Cell, IIIT Sonepat is a non-profit organization run by
+            students and has been established with the objective of developing, enhancing,
+            and committing to foster the entrepreneurial spirit amongst the student to
+            encourage them to be successful entrepreneurs.
           </div>
           <div>
-            We at E-Cell link students with mentors, seekers with investors and
-            aspiring entrepreneurs with enduring entrepreneurs. By organizing
-            several entrepreneurship development programmes and camps, skill
-            development workshops and speaker sessions, hosting brainstorming
-            competitions, we aim to promote the development of knowledge-based
-            enterprises and open doors towards opportunities in inventive areas.
+            We provide a platform to individuals with creative minds and ideas,
+            which have the potential for substantial business opportunities.
+            We organize entrepreneurship development programs and camps,
+            skill development workshops and speaker sessions, hosting brainstorming
+            competitions, and many more..
           </div>
         </div>
         <div className="right">

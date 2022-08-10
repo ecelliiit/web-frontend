@@ -157,7 +157,7 @@ const data = [
   {
     key: 26,
     name: "Vaibhav Dinkar",
-    position: "Social Media Anyalist",
+    position: "Social Media Analyst",
     img: "https://media-exp1.licdn.com/dms/image/C4D03AQGqNtBuWHY_6g/profile-displayphoto-shrink_400_400/0/1641874944403?e=1665014400&v=beta&t=RoBGlCohPjofcLKgZIwrK4r-uwxd-8fs24EZ1UPBzL8"
   },
 ];

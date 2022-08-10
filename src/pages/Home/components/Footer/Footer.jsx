@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="heading">E Cell</div>
           <ul>
             <li>Vision</li>
-            <li>Blog</li>
+            <li>Linktree</li>
             <li>Youtube</li>
             <li>Contact</li>
           </ul>

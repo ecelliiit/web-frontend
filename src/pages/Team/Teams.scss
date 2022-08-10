@@ -47,5 +47,6 @@
 @media screen and (max-width: 600px) {
     .CoreTeam {
         grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-gap: 0.5rem;
     }
 }
