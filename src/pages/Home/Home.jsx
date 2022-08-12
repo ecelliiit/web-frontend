@@ -8,6 +8,7 @@ import JoinCommunity from "./components/JoinCommunity/JoinCommunity";
 import Footer from "./components/Footer/Footer";
 import Gallery from "./components/Gallery/Gallery";
 import Navbar from "../../components/Navbar/Navbar";
+import Collaborations from "./components/Collaborations/Collaborations";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Teams />
       <Events />
       <Gallery />
+      <Collaborations />
       <JoinCommunity />
       <Footer />
     </div>

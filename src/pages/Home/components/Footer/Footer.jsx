@@ -1,7 +1,27 @@
 import React from "react";
 import "./Footer.scss";
+import { Link, Outlet } from "react-router-dom"
+
 
 const Footer = () => {
+
+  const scrollToAbout = () => {
+    const aboutUs = document.querySelector("#About");
+    aboutUs.scrollIntoView({ behavior: 'smooth', block: "start" });
+  }
+  const scrollToHome = () => {
+    const aboutUs = document.querySelector("#HomeSection");
+    aboutUs.scrollIntoView({ behavior: 'smooth', block: "start" });
+  }
+  const scrollToContact = () => {
+    const aboutUs = document.querySelector("#Contact");
+    aboutUs.scrollIntoView({ behavior: 'smooth', block: "start" });
+  }
+  const scrollToVision = () => {
+    const aboutUs = document.querySelector("#Vision");
+    aboutUs.scrollIntoView({ behavior: 'smooth', block: "start" });
+  }
+
   return (
     <div className="home-footer">
       <div className="copyright">
@@ -11,19 +31,19 @@ const Footer = () => {
         <div>
           <div className="heading">E Cell</div>
           <ul>
-            <li>Vision</li>
-            <li>Linktree</li>
-            <li>Youtube</li>
-            <li>Contact</li>
+            <li onClick={scrollToVision}>Vision</li>
+            <li><a href="https://linktr.ee/ecelliiitsonepat">Linktree</a></li>
+            <li><a href="https://www.youtube.com/channel/UCSLfrQ-S9uimhsO5tqPBRNA">Youtube</a></li>
+            <li onClick={scrollToContact}>Contact</li>
           </ul>
         </div>
         <div>
           <div className="heading">Support</div>
           <ul>
-            <li>Home</li>
-            <li>Events</li>
-            <li>About us</li>
-            <li>Our Teams</li>
+            <li onClick={scrollToHome}>Home</li>
+            <li><Link to="/events">Event</Link></li>
+            <li onClick={scrollToAbout}>About Us</li>
+            <li><Link to="/teams">Our Team</Link></li>
           </ul>
         </div>
         <div>

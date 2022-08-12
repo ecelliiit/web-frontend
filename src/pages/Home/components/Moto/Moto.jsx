@@ -6,7 +6,7 @@ import RocketSVG from "../../../../assets/illustrations/rocket.svg";
 
 const Moto = () => {
   return (
-    <div className="home-moto">
+    <div className="home-moto" id="Vision">
       <div className="heading">We believe</div>
       <div className="motos">
         <div className="dream">

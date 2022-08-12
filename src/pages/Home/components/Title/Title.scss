@@ -2,25 +2,20 @@
 
 .home-title {
   width: 100%;
-  // aspect-ratio: 1440/885;
-  // height: 900px;
-  // background-color: $whiteShade1;
-  // background: url("../../../../assets/illustrations/illustration4.svg") center center no-repeat;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position-y: -230px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   padding-top: 140px;
   align-items: center;
   gap: 2rem;
+
   .heading1,
   .heading2 {
     font-size: 50px;
     font-weight: 800;
     letter-spacing: -2px;
   }
+
   .title-img {
     width: 70%;
     height: 600px;
@@ -33,15 +28,16 @@
 
 @media screen and (max-width: 600px) {
   .home-title {
-    padding-top: 80px;
+    padding-top: 90px;
+
     .heading1,
     .heading2 {
       font-size: 36px;
     }
+
     .title-img {
       width: 100%;
       height: 400px;
     }
   }
 }
-  
