@@ -37,4 +37,22 @@
   text-decoration: underline;
   cursor: pointer;
   text-underline-offset: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .home-footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .home-footer .quicklinks {
+    gap: 2rem;
+  }
+  .home-footer .quicklinks .heading {
+    font-size: 16px;
+  }
+  .home-footer .quicklinks ul li {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Footer.css.map */
