@@ -1,6 +1,5 @@
 @import "../../styles/variables.scss";
 
-
 .home-event {
     display: flex;
     justify-content: center;
@@ -39,8 +38,8 @@
 }
 .CoreTeam {
     display: grid;
-    grid-template-columns: repeat(5, minmax(200px, 1fr));
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-gap: 40px;
     margin-top: 20px;
 }
 

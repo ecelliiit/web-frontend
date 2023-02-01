@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Teams.scss";
-import "./Teams.css";
 
 const Teams = () => {
 
