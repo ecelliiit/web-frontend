@@ -1,8 +1,4 @@
-// .home-map{
-//     width: 100%;
-//     aspect-ratio: 1440/725.5;
-//     background: #FFF1FE;
-// }
+@import "../../styles/variables.scss";
 
 .location-section {
     width: 100%;
@@ -23,8 +19,9 @@
     .home-map {
         width: 100%;
         aspect-ratio: 1440/725.5;
-        background: #FFF1FE;
+        background: #fff1fe;
     }
 
-    .left {}
+    .left {
+    }
 }

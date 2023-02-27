@@ -1,5 +1,4 @@
-@import "../../../../styles/variables.scss";
-
+@import "../../styles/variables.scss";
 .home-collaborations {
     display: flex;
     justify-content: center;
@@ -9,9 +8,7 @@
     background-color: #fff1fe;
 
     .heading {
-        background: -webkit-linear-gradient(91.3deg,
-                #ba81ff -1.72%,
-                #ff6a95 101.32%);
+        background: -webkit-linear-gradient(91.3deg, #ba81ff -1.72%, #ff6a95 101.32%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 46px;

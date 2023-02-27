@@ -1,4 +1,4 @@
-@import "../../../../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .buttons {
     display: flex;
@@ -9,7 +9,8 @@
 }
 
 .buttons {
-    .coreTeamButton, .joinButton {
+    .coreTeamButton,
+    .joinButton {
         height: 50px;
         width: 150px;
         text-align: center;
@@ -39,7 +40,6 @@
                 text-decoration: none;
             }
         }
-
     }
 }
 
@@ -47,9 +47,9 @@
     .buttons {
         flex-direction: column;
         gap: 1rem;
-        .coreTeamButton, .joinButton {
+        .coreTeamButton,
+        .joinButton {
             width: 100%;
         }
     }
 }
-    

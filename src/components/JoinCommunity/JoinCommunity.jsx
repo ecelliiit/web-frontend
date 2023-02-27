@@ -5,9 +5,9 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import CommunitySVG from "../../../../assets/illustrations/community.svg";
+import CommunitySVG from "../../assets/illustrations/community.svg";
 
-const secretKey = process.env.SECRET
+const secretKey = process.env.SECRET;
 
 const JoinCommunity = () => {
   const [input, setInput] = useState(" ");
@@ -20,20 +20,22 @@ const JoinCommunity = () => {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
-      progress: undefined
+      progress: undefined,
     });
 
   const handleInput = () => {
     axios
-      .post("https://ecell-iiits-backend.herokuapp.com/subscriber", {
-        first_name: "Subscriber",
-        last_name: "E Cell IIIT Sonepat",
-        email: input,
-      },
+      .post(
+        "https://ecell-iiits-backend.herokuapp.com/subscriber",
+        {
+          first_name: "Subscriber",
+          last_name: "E Cell IIIT Sonepat",
+          email: input,
+        },
         {
           headers: {
             Authorization: "Bearer " + secretKey,
-          }
+          },
         }
       )
       .then((res) => {
@@ -45,7 +47,7 @@ const JoinCommunity = () => {
       .catch((err) => {
         console.log(err);
       });
-  }
+  };
 
   return (
     <div className="home-community" id="Contact">
@@ -69,7 +71,9 @@ const JoinCommunity = () => {
                 setInput(e.target.value);
               }}
             />
-            <button type="submit" onClick={handleInput}>Subscribe</button>
+            <button type="submit" onClick={handleInput}>
+              Subscribe
+            </button>
             <ToastContainer />
           </div>
         </div>

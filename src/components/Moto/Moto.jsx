@@ -1,8 +1,8 @@
 import React from "react";
 import "./Moto.scss";
-import DreamSVG from "../../../../assets/illustrations/lamp.svg";
-import TargetSVG from "../../../../assets/illustrations/target.svg";
-import RocketSVG from "../../../../assets/illustrations/rocket.svg";
+import DreamSVG from "../../assets/illustrations/lamp.svg";
+import TargetSVG from "../../assets/illustrations/target.svg";
+import RocketSVG from "../../assets/illustrations/rocket.svg";
 
 const Moto = () => {
   return (

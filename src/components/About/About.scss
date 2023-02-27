@@ -1,4 +1,4 @@
-@import "../../../../styles/variables.scss";
+@import "../../styles/variables.scss";
 
 .home-about {
   width: 100%;
@@ -15,9 +15,7 @@
     justify-content: center;
     margin-bottom: 90px;
     font-weight: 800;
-    background: -webkit-linear-gradient(91.3deg,
-        #ba81ff -1.72%,
-        #ff6a95 101.32%);
+    background: -webkit-linear-gradient(91.3deg, #ba81ff -1.72%, #ff6a95 101.32%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
